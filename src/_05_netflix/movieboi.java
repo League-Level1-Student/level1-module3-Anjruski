@@ -1,5 +1,7 @@
 package _05_netflix;
 
+import java.io.ObjectInputStream.GetField;
+
 public class movieboi {
 public static void main(String[] args) {
 	
@@ -24,9 +26,9 @@ public static void main(String[] args) {
 	
 	what.printMovies();
 	
-	System.out.println("The best movie is..");
+	System.out.println("The best movie is.." + what.getBestMovie());
 	
-	
+	System.out.println("The second best movie is... " + what.getMovie(1));
 	
 	
 	
